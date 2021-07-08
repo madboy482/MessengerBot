@@ -72,7 +72,7 @@ async def inline(event):
     db.update({"user_id": ui.user.id, "msg": msg, "self": event.sender.id})
     text = f"""
 **📩 Sᴇᴄʀᴇᴛ Msɢ** To **[{ui.user.first_name}](tg://user?id={ui.user.id})**.
-Oɴʟʏ Hᴇ/Sʜᴇ Cᴀɴ Oᴘᴇɴ Iᴛ.."
+Oɴʟʏ Hᴇ/Sʜᴇ Cᴀɴ Oᴘᴇɴ Iᴛ..
     """
     dn = event.builder.article(
             title="Its a secret message! Sssh",

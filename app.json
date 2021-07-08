@@ -1,0 +1,23 @@
+{
+	"name": "MessengerBot",
+	"description": "A TeleGramBot to send messages secretly!",
+	"logo": "https://telegra.ph/file/de77c6c78cb32054dcbf4.png",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/madboy482/MessengerBot",
+	"env": {
+		"TOKEN": {
+			"description": "Your TeleGram Bot Token ( @BotFather )",
+			"value": ""
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
